@@ -2,7 +2,7 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # Exit prematurely on first failure
-set -e
+set -ex
 
 # Parse args
 BUILD_DIR=$1
